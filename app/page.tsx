@@ -5,7 +5,7 @@ import Cd from "../components/Cd/Cd";
 
 export default function Home() {
   return (
-    <main className="absolute h-full w-full flex justify-center items-center">
+    <main className="bg-black absolute h-full w-full">
       <Cd size={500} />
     </main>
   );
