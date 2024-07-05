@@ -138,7 +138,7 @@ const Cd = ({ size }: props) => {
               style={{ objectFit: "cover" }}
             />
             <motion.img
-              className="absolute w-[99.7%] h-[99.7%] z-[2]"
+              className="absolute w-[99.7%] h-[99.7%] z-[2] transition-transform duration-[900ms] ease-out"
               src="/images/cd2.png"
               alt="cd"
               style={{ objectFit: "cover", x: translateX, y: translateY }}
