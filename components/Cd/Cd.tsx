@@ -52,13 +52,13 @@ const Cd = ({ size }: props) => {
   const rotateX = useTransform(
     motionValue(cursorPosition.y),
     (latest: number) =>
-      ((latest - windowSize.height / 2) / (windowSize.height / 2)) * -25
+      ((latest - windowSize.height / 2) / (windowSize.height / 2)) * -40
   );
 
   const rotateY = useTransform(
     motionValue(cursorPosition.x),
     (latest: number) =>
-      ((latest - windowSize.width / 2) / (windowSize.width / 2)) * 25
+      ((latest - windowSize.width / 2) / (windowSize.width / 2)) * 40
   );
 
   const translateX = useTransform(
