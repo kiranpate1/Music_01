@@ -1,3 +1,7 @@
 .tone-arm {
   transform: translateX(-25%) rotateZ(30deg) !important;
 }
+
+.spin-ease {
+  transition: 0.1s ease-out;
+}
